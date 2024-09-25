@@ -8,6 +8,10 @@ h1{
 
 .mytext{
     color: rgb(0, 85, 83);
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 22px;
+    line-height: 32px;
 }
 
 a{
@@ -19,13 +23,6 @@ a:hover{
     color:rgb(203, 22, 158)
 }
 
-nav{
-    background: #eee;
-    /* background - цвет фона */
-    border: 1px solid #bbb;
-    /* border - обводка */
-}
-
 .pic1{
     width: 25%;
     /* width - ширина */
@@ -33,4 +30,44 @@ nav{
     /* margin - внешний отступ */
     border-radius: 10px;
     /* border-radius - скругление углов */
+}
+
+
+article{
+    width: 700px;
+   /* background: lavender; */
+    margin: 200px auto;
+}
+
+h1{
+    color: rgb(17, 0, 85);
+    font-size: 38px;
+    margin-top: 66px;
+    line-height: 45px;
+    background: lavender;
+}
+
+p{
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 15px;
+    line-height: 32px;
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 32px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+h2 + blockquote, h2 + p{
+    margin-top: 8px;
+}
+
+blockquote{
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
 }

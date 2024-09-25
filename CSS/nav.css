@@ -1,0 +1,17 @@
+nav{
+    background: #eee; /* background - цвет фона */
+    border: 1px solid #bbb; /* border - обводка */
+    width: 300px; /* width - ширина */
+    position: fixed; /* position - привязка позиции */
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    box-sizing:  border-box;
+    opacity: .3; /* 30% */
+    transition: all 0.5s ease;
+}
+
+nav:hover{
+    opacity: 1; /* 100% */
+    transition: all 0.1s ease;
+}

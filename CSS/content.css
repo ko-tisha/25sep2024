@@ -32,6 +32,39 @@ a:hover{
     /* border-radius - скругление углов */
 }
 
+.pic2{
+    width: 100%;
+    /* width - ширина */
+    margin-right: 200px;
+    /* margin - внешний отступ */
+    border-radius: 3px;
+    /* border-radius - скругление углов */
+}
+
+.picbox{
+    background: #eee; /* background - цвет фона */
+    border: 1px solid #bbb; /* border - обводка */
+    width: 300px; /* width - ширина */
+    padding: 3px;
+}
+
+.pict{
+    color: #717171; 
+    size: 30px;
+}
+
+.pictext{
+    margin-left: 4%; 
+}
+
+.tween{
+    width: 100%; 
+    height: 200px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+
 
 article{
     width: 700px;
@@ -71,3 +104,8 @@ blockquote{
     margin-bottom: 50px;
     margin-left: 30px;
 }
+
+.spy{
+    margin-left: 10%;
+}
+

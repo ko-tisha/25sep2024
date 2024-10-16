@@ -1,0 +1,32 @@
+@font-face{
+    font-family: "EBGaramond-Italic";
+    src: url("../EB_Garamond/EBGaramond-Italic.ttf") format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "EBGaramond";
+    src: url("../EB_Garamond/EBGaramond.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    font-family: "EBGaramond-Italic";
+}
+
+h1, h2, h3 {
+    font-family: "EBGaramond";
+}
+
+@font-face{
+    font-family: "gothampro_regular";
+    src: url("../Gotham\ Pro/gothampro_regular.ttf") format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+p {
+    font-family: "gothampro_regular";
+}
